@@ -193,7 +193,7 @@ pessoa.apresentacao= function (){
 ... if (pessoa.caminhouQuantosMetros === 0 ){
 ..... distancia = ' metro ' } else { 
 ..... distancia = ' metros '}
-... return 'olá, eu sou ' + pronome + nomecompleto ()+ " tenho" + pessoa.idade + plural + pessoa.altura +',meu peso é ' +pessoa.peso+ 'e, só hoje, eu ja caminhei'+ pessoa.caminhouQuantosMetros + distancia }
+... return 'olá, eu sou ' + pronome + pessoa.nome+ ' '+pessoa.sobrenome + " tenho" + pessoa.idade + plural + pessoa.altura +',meu peso é ' +pessoa.peso+ 'e, só hoje, eu ja caminhei'+ pessoa.caminhouQuantosMetros + distancia }
 
 
 // Agora, apresente-se ;)
